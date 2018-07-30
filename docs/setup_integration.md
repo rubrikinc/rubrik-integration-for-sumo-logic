@@ -76,3 +76,30 @@ Beyond these specific settings, the following settings should be used for each s
 * **Timestamp Format** - Automatically detect the format
 * **Detect messages spanning multiple lines** - Checked
 * **Enable Multiline Processing** - Infer Boundaries - Detect message boundaries automatically
+
+## Importing the dashboards
+
+The dashboards are defined using JSON templates, steps for creating these are below. The following table lists the dashbaord names and associated JSON template:
+
+Dashboard Name | Template Name
+--- | ---
+Rubrik - Capacity Dashboard | `rubrik_capacity_dashboard.json`
+Rubrik - Job History Dashboard | `rubrik_job_history_dashboard.json`
+Rubrik - Recovery Dashboard | `rubrik_recovery_dashboard.json`
+Rubrik - Security Dashboard | `rubrik_security_dashboard.json`
+
+To import the dashboards, go to folder view in SumoLogic, and create a folder named Rubrik:
+
+<img src="./dashboard_folder.png" width="250">
+
+Right click on the folder and click 'Import':
+
+<img src="./dashboard_import_menu.png" width="250">
+
+Enter the name of the dashboard, as detailed in the table above:
+
+<img src="./dashboard_create.png" width="500">
+
+Paste in the copy of the dashboard JSON and click Import:
+
+<img src="./dashboard_create_button.png" width="500">
