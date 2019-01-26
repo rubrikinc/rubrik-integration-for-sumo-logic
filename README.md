@@ -1,4 +1,4 @@
-# Rubrik SumoLogic Integration Pack
+# Rubrik Integration Pack for Sumo Logic
 
 ## Overview
 
